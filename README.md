@@ -1,3 +1,3 @@
-# pure-react-webpack-boilerplate
+# React-Mapbox-Cluster
 
-Boilerplate for pure React-Webpack projects.
+React + Mapbox GL app which clusters Geojson data.
