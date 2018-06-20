@@ -1,8 +1,8 @@
 node_modules
 
-build/
-
 .git
+
+/build
 
 .DS_Store
 
