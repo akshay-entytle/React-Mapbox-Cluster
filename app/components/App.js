@@ -19,8 +19,8 @@ class App extends React.Component {
 
 		var map = new mapboxgl.Map({
 		    container: this.node,
-			 center: [-122.4206, 37.7725],
-			 zoom: 1.8,
+			 center: [-75, 30],
+			 zoom: 3,
 		    style: 'mapbox://styles/mapbox/streets-v9'
 		})
 
