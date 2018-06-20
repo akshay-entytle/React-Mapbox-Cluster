@@ -15,7 +15,17 @@ module.exports = {
 			{
 				test: /\.js$/,
 				exclude: /node_modules/,
-				use: 'babel-loader'
+				use: {
+					loader: 'babel-loader'
+				}
+			},
+			{
+					test: /\.geojson$/,
+					loader: 'json-loader'
+			},
+			{
+				test: /\.css$/,
+				use: ['style-loader', 'css-loader']
 			}
 		]
 	},
