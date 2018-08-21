@@ -80,7 +80,7 @@ class App extends React.Component {
 	           'circle-stroke-width': 1,
 	           'circle-stroke-color': '#fff'
 	       	}
-			})
+			});
 		})
 	}
 
